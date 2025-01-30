@@ -37,6 +37,7 @@
     border-radius: 30px;
     padding-right: 20px;
     margin-bottom: 25px;
+    width: 100%;
 }
 input{
     flex: 1;
@@ -44,6 +45,7 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+    width: 100%;
     
 }
 button{
@@ -99,4 +101,9 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 
+}
+@media (max-width:410px){
+    button{
+        padding: 8px 25px;
+    }
 }
